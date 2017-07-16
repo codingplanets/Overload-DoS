@@ -3,16 +3,17 @@
 This a very powerful denial of service (DDoS) program. It is very efficient and portable, it is stable and useful for stress-testing companies, it currently has three attack methods. 1) SYN/ICMP with 6 flags including fin, syn, rst, ack, psh and urg. 2) Slowloris/SLOW uses sock.connect to attack. 3) Request/Requester uses httplib to attack
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You will need a few diffrent modules installed to execute Overload.
 
-### Prerequisites
+### Modules
 
-What things you need to install the software and how to install them
-
+You will have to use pip to install the modules, colorama, termcolor & requests
 ```
-Give examples
+apt-get install python-pip
 ```
-
+```
+yum install python-pip
+```
 ### Installing
 
 A step by step series of examples that tell you have to get a development env running
