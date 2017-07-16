@@ -25,7 +25,6 @@ sudo pip install colorama termcolor requests
 
 ## Install Overload-Dos
 
-Install source-code from github
 ```
 git clone https://github.com/codingplanets/Overload-DoS
 ```
@@ -37,6 +36,26 @@ chmod +x *
 ```
 ```
 ./install-overload
+```
+## Commands
+```
+usage: ./Overload-DoS.py -t [target] -p [port] -t [number threads]
+
+optional arguments:
+  -h, --help           show this help message and exit
+
+options:
+
+  -target <ip/domain>  Specify your target
+  -timeout <timeout>   Timeout for socket
+  -threads <threads>   Set threads number for connection (default = 1000)
+  -port <port>         Specify port target (default = 80)
+  -sleep <sleep time>  Set sleep time for reconnection
+  -spoof <spoofed ip>  Specify spoofed IP address
+  -request             Enable request target
+  -syn                 Enable syn attack
+  -slow                Enable slow attack
+  -fakeip              Option to create fake ip if not specifed for spoofed ip
 ```
 
 ## Built With
