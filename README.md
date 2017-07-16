@@ -1,6 +1,4 @@
 # Overload-DoS
-Overload is a denial of service (DDoS) program.
-# Overload-DoS
 
 This a very powerful denial of service (DDoS) program. It is very efficient and portable, it is stable and useful for stress-testing companies, it currently has three attack methods. 1) SYN/ICMP with 6 flags including fin, syn, rst, ack, psh and urg. 2) Slowloris/SLOW uses sock.connect to attack. 3) Request/Requester uses httplib to attack
 ## Getting Started
