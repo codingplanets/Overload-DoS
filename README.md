@@ -90,7 +90,7 @@ SLOW/Request/SYN spoofed IP attack method
 
 ## Authors
 
-* **Chris Poole**  -  Twitter: [@codingplanets](https://twitter.com/codingplanets)  -  Github: [codingplanets](https://github.com/codingplanets)  -  Pastebin: [1337ings](https://pastebin.com/u/1337ings)
+* **Chris Poole**  -  Twitter: [@codingplanets](https://twitter.com/codingplanets)  -  Github: [/codingplanets](https://github.com/codingplanets)  -  Pastebin: [/1337ings](https://pastebin.com/u/1337ings)
 
 
 ## License
