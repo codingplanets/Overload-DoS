@@ -1,9 +1,9 @@
 # Overload-DoS
 
-This a very powerful denial of service (DDoS) program. It is very efficient and portable, it is stable and useful for stress-testing companies, it currently has three attack methods. 1) SYN/ICMP with 6 flags including fin, syn, rst, ack, psh and urg. 2) Slowloris/SLOW uses sock.connect to attack. 3) Request/Requester uses httplib to attack
+This a very powerful denial of service (DDoS) program. It is very efficient and portable, it is stable and useful for stress-testing companies, it currently has three attack methods. 1) SYN/ICMP with 6 flags including fin, syn, rst, ack, psh and urg. 2) Slowloris/SLOW uses sock.connect to attack. 3) Request/Requester uses httplib to attack. You either choose one of the three attack methods or you can choose all three!   
 ## Getting Started
 
-You will need a few diffrent modules installed to execute Overload.
+You will need a few different modules installed to execute Overload.
 
 ### Modules
 
@@ -90,7 +90,7 @@ SLOW/Request/SYN spoofed IP attack method
 
 ## Authors
 
-* **Chris Poole**  -  Twitter: [@codingplanets](https://twitter.com/codingplanets)  -  Github: [codingplanets](https://github.com/codingplanets)
+* **Chris Poole**  -  Twitter: [@codingplanets](https://twitter.com/codingplanets)  -  Github: [codingplanets](https://github.com/codingplanets)  -  Pastebin: [1337ings](https://pastebin.com/u/1337ings)
 
 
 ## License
