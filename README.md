@@ -81,7 +81,7 @@ SYN/6 flagged ICMP attack method
 
 ## Authors
 
-* **Chris Poole** - Twitter:[@codingplanets](https://twitter.com/codingplanets) - Github:[codingplanets](https://github.com/codingplanets)
+* **Chris Poole**  -  Twitter: [@codingplanets](https://twitter.com/codingplanets)  -  Github: [codingplanets](https://github.com/codingplanets)
 
 
 ## License
