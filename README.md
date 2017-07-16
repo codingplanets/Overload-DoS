@@ -9,28 +9,19 @@ You will need a few diffrent modules installed to execute Overload.
 
 You will have to use pip to install the modules, colorama, termcolor & requests
 ```
-apt-get install python-pip
+sudo apt-get install python-pip
 ```
 ```
-yum install python-pip
+sudo yum install python-pip
 ```
-### Installing
+### Module Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Using pip you can install the following modules
 
 ```
-Give the example
+sudo pip install colorama termcolor requests
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
